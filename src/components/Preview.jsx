@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useLocation, Link } from 'react-router-dom';
 
 const Preview = () => {
