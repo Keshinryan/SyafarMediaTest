@@ -1,0 +1,5 @@
+const [textAreaIntrenasi, setTextAreaIntrenasi] = useState('');
+
+    const handleTextAreaChangeIntrenasi = (e) => {
+        setTextAreaIntrenasi(e.target.value);
+    };

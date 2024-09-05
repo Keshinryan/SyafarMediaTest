@@ -1,0 +1,9 @@
+<TextArea
+            id="Intrenasi"
+            name="Intrenasi"
+            Intrenasi={textAreaIntrenasi}
+            onChange={handleTextAreaChangeIntrenasi}
+            label="Intrenasi"
+            rows={5}
+            disabled={false}  // Set to true if you want the textarea to be disabled
+        />

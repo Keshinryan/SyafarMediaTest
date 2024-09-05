@@ -1,0 +1,40 @@
+.fa-chevron-up {
+  transform: rotate(180deg);
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.form-content {
+  width: 70%;
+}
+.p-content {
+  width: 50%;
+}
+
+.note{
+  font-weight: 700;
+  color: red;
+  padding-left: 10px;
+}
+
+label{
+  font-weight: 700;
+}
+
+@media (max-width:700px) {
+  .form-content {
+    width: 100%;
+  }
+}
+
+@media (max-width:1000px) {
+  .p-content {
+    width: 70%;
+  }
+}
